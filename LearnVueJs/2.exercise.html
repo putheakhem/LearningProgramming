@@ -16,6 +16,13 @@
         <h2>Your Last Name: {{ lastName }}</h2>
         <h2>Your Information: {{ studentInfo() }}</h2>
 
+        <h1> You can update your information here</h1>
+        <input v-model="firstName">
+        <input v-model="lastName">
+        <pre>
+            {{ $data | json }}
+        </pre>
+
     </div>
 
     <script type="text/javascript">
