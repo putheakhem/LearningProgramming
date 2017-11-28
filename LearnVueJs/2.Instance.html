@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instance Vue</title>
+    <!--Include Script-->
+    <script src="vue.js" type="text/javascript"></script>
+
+</head>
+    <div id="app" style="text-align: center">
+        <h1>Student Information</h1>
+        <h2>Your First Name:  {{ firstName }}</h2>
+        <h2>Your Last Name: {{ lastName }}</h2>
+        <h2>Your Information: {{ studentInfo() }}</h2>
+
+    </div>
+
+    <script type="text/javascript">
+        var InstanceVue = new Vue({
+            el: '#app',
+            data: {
+                firstName: 'Puthea',
+                lastName: 'Khem',
+                address: 'Indonesia'
+            },
+            methods: {
+                studentInfo: function() {
+                    return "I am " + this.firstName + " " + this.lastName;
+                }
+            }
+
+        })
+    </script>
+
+<body>
+
+</body>
+</html>
