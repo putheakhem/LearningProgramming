@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Template</title>
+    <!--Script Included here -->
+</head>
+<body>
+    <div id="vueTemplate">
+        <h1> {{ firstName }} </h1>
+        <h1> {{ lastName }} </h1>
+        <div v-html = "htmlContent">  </div>
+         <!--we can't use {{ htmlCotent}} to show proper html element-->
+        <img v-bind:src="imgsrc" alt="Add attribute to image">
+
+    </div>
+    <script src="../vue.js"></script>
+    <script src="vueTemplate.js"></script>
+</body>
+
+</html>
