@@ -1,7 +1,7 @@
-####################
-Leanr Python Programming
+
+# Learn Python Programming
 
 
-# Day 1
+## Day 1
 > Introduction to Python Programming and basic syntax of Python
 
