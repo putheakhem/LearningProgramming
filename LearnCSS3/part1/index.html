@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Syntax</title>
+
+  </head>
+  <body>
+      <!-- h1 in here is an html element  -->
+      <h1>header level 1 text blue and font size 12</h1>
+
+      <!-- example id selector  -->
+      <h2 id="IDSelector"> Exmaple ID Selector</h2>
+
+      <h3 class="ClassSelector"> Example Class Selector</h3>
+  </body>
+</html>
+
+<!-- All CSS3 Explaination -->
+
+
+<style media="screen">
+ /* h1 is a element selector */
+  h1 {
+    color: blue;        /* color:blue  is an declaration . color is a property and blue: is a value*/
+    font-size: 12px;
+    /*the declaration block contains one or more declaration seperated by a semicolon*/
+  }
+  /**/
+
+/*ID Selector: uses the id attribute of html element to find the specific element*/
+ #IDSelector {
+   color: red;
+   font-family: fantasy;
+   font-size: 20px;
+ }
+ /* Class selector : if we want to apply to many element*/
+ .ClassSelector {
+   font-family: monospace;
+   font-style: italic;
+   font-size: 20px;
+ }
+
+ h1, h2, h3 {
+  text-align: center;
+ }
+</style>
