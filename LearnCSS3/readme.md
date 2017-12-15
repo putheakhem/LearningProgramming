@@ -7,4 +7,6 @@
 > * Inline style : `<h1 style="color:blue;margin-left:30px;">This is inline style</h1>`
 
 ## Part 2
-> CSS border : allow us to specify the style, width and color of element 
+> CSS border : allow us to specify the style, width and color of element
+> CSS border Style :   `border-style: styleName` such as solid, dotted dashed, none, groove, inset, outset, Hidden....
+> CSS Border Width: `border-width: top right bottom left` example : `border-width: 2px 10px 5px 20px``

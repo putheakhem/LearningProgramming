@@ -9,3 +9,22 @@ h5.outset {border-style: outset;}
 h5.none {border-style: none;}
 h5.hidden {border-style: hidden;}
 h5.mix {border-style: dotted dashed solid double;}
+
+/*css class*/
+
+.one {
+  border-style: solid;
+  border-width: 6px;
+}
+.two {
+  border-style: solid;
+  border-width: medium;
+}
+.three {
+  border-style: solid;
+  border-width: 2px 10px 4px 20px;
+}
+.four {
+  border-style: dashed;
+  border-width: 10px 20px
+}
