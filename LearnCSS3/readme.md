@@ -5,3 +5,6 @@
 > * External style : `<link rel="stylesheet" type="text/css" href="css3locacationfile">`
 > * Internal Style : `<style> css3 declaration here </style>` make sure on the same html document
 > * Inline style : `<h1 style="color:blue;margin-left:30px;">This is inline style</h1>`
+
+## Part 2
+> CSS border : allow us to specify the style, width and color of element 

@@ -1,0 +1,11 @@
+h5.dotted {border-style: dotted;}
+h5.dashed {border-style: dashed;}
+h5.solid {border-style: solid;}
+h5.double {border-style: double;}
+h5.groove {border-style: groove;}
+h5.ridge {border-style: ridge;}
+h5.inset {border-style: inset;}
+h5.outset {border-style: outset;}
+h5.none {border-style: none;}
+h5.hidden {border-style: hidden;}
+h5.mix {border-style: dotted dashed solid double;}
