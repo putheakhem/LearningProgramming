@@ -6,3 +6,5 @@
 
 ## Part 2
 > Directive is familiar   to template engine. In the part we introduce the directive such a `v-text`, `v-html`, `v-show`, `v-if`, `v-once`, `v-pre`, `v-cloak`
+
+## Part 3
