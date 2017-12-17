@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+      <div class="" id="app">
+        <h1 v-text="message"></h1>
+        <h2 v-html="htmlTag"></h2>
+        <h3 v-show="viewed">Show or Hidded</h3>
+        <h4 v-if="condition == 'show'">show</h4>
+        <h1 v-pre> {{htmlTag}}</h1>
+        <h2 v-once> {{ message}}</h2> <!-- Render only one time -->
+        <h3 v-cloak> Delay loading or rendering with showing tag to user</h3>
+      </div>
+
+  </body>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"> </script>
+  <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Welcome to Vue JS Directive',
+          htmlTag: 'Welcome to <small> Vue Js</small>',
+          viewed: true,
+          condition: 'hide', // you can change this value to play with it
+        }
+      });
+  </script>
+</html>
