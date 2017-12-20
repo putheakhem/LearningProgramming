@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> V Bind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="content" id="app">
+        <h1>{{ message}}</h1>
+      <a class="button" v-bind:class="{'is-primary': isPrimary, 'is-danger': isDanger}"> click me </a>
+      </div>
+    </div>
+
+  </body>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"> </script>
+  <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          message: 'Welcome to Vue JS Directive',
+          isPrimary: true,
+          isDanger: false
+        }
+      });
+  </script>
+</html>
