@@ -15,3 +15,6 @@
 
 ## part 5
 > 2 way binding  : use v-model to bind data from object to element or from element update to vue object
+
+## part 6
+> Even Handling : `v-on:click="yourMethod"` or `@click`
