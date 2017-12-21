@@ -8,4 +8,10 @@
 > Directive is familiar   to template engine. In the part we introduce the directive such a `v-text`, `v-html`, `v-show`, `v-if`, `v-once`, `v-pre`, `v-cloak`
 
 ## Part 3
-> v-bind : use for manipulating or add attribute to html element 
+> v-bind : use for manipulating or add attribute to html element
+
+## part 4
+> v-for : use for iteration each element in object or array
+
+## part 5
+> 2 way binding  : use v-model to bind data from object to element or from element update to vue object
