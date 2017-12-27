@@ -25,5 +25,19 @@
 
   </body>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"> </script>
-  <script type="text/javascript" src="vue.js"></script>
+  <script type="text/javascript" src="script/vue.js"> </script>
+  <script>
+    var app = new Vue({
+      el: "#app",
+      data: {
+        menutitle: 'All list',
+        todos: [
+          {text: 'Member', id:1},
+          {text: 'Plugins', id:2},
+          {text: 'Add a Member', id:3}
+        ]
+      }
+
+    });
+  </script>
 </html>

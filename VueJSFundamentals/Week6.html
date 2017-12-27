@@ -16,5 +16,21 @@
     </div>
   </body>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"> </script>
-  <script type="text/javascript" src="vue.js"></script>
+  <script type="text/javascript" src="script/vue.js"></script>
+  <script>
+    var  app = new Vue({
+      el: '#app',
+      data: {
+        count: 0
+      },
+      methods: {
+        countUp: function() {
+          this.count += 1
+        },
+        countDown: function(){
+          this.count -= 1
+        }
+      }
+    })
+  </script>
 </html>
